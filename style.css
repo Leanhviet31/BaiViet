@@ -429,6 +429,10 @@ ol {
   color: var(--accent);
 }
 
+.article-section {
+  margin-bottom: 48px;
+}
+
 /* 10. Section heading with numbered circle */
 .section-heading {
   display: flex;
@@ -700,7 +704,7 @@ ol {
 /* 20. Sidebar */
 .sidebar {
   position: sticky;
-  top: 96px;
+  top: 32px;
   display: flex;
   flex-direction: column;
   gap: 32px;
