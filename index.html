@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tủ 80cm nên chọn chậu rửa bát nào? - CRB Blog</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Caveat:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      corePlugins: {
+        preflight: false,
+        container: false,
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- HEADER (sticky) -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="CRB" class="logo-img">
+      </a>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="#">Chọn chậu</a></li>
+          <li><a href="#">Chậu rửa bát</a></li>
+          <li><a href="#">Thay chậu cũ</a></li>
+          <li><a href="#">Cẩm nang <span class="active-dot">●</span></a></li>
+          <li><a href="#">Showroom</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Bạn muốn tìm gì?">
+          <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="hotline"><i class="fas fa-phone"></i> 0961 234 567</div>
+        <a href="#" class="btn-cta">TÌM CHẬU PHÙ HỢP <i class="fas fa-arrow-right"></i></a>
+        <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+    <div class="mobile-nav">
+      <div class="mobile-nav-header">
+        <img src="images/logo.png" alt="CRB" style="height:36px;">
+        <button class="mobile-close" id="mobile-close"><i class="fas fa-xmark"></i></button>
+      </div>
+      <ul>
+        <li><a href="#">Chọn chậu</a></li>
+        <li><a href="#">Chậu rửa bát</a></li>
+        <li><a href="#">Thay chậu cũ</a></li>
+        <li><a href="#" class="active">Cẩm nang</a></li>
+        <li><a href="#">Showroom</a></li>
+      </ul>
+      <a href="#" class="btn-cta-mobile">Tìm chậu phù hợp</a>
+    </div>
+  </div>
+
+  <!-- READING PROGRESS BAR -->
+  <div class="reading-progress" id="reading-progress"></div>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb-bar">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="#">Trang chủ</a>
+        <i class="fas fa-chevron-right"></i>
+        <a href="#">Cẩm nang</a>
+        <i class="fas fa-chevron-right"></i>
+        <a href="#">Chọn chậu</a>
+        <i class="fas fa-chevron-right"></i>
+        <span>Tủ 80cm nên chọn chậu rửa bát nào?</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- MAIN LAYOUT (CSS Grid: 8/12 - 4/12) -->
+  <div class="container main-layout">
+
+    <!-- ARTICLE CONTENT -->
+    <article class="article-content">
+
+      <!-- Article Header -->
+      <header class="article-header">
+        <span class="article-cat">CHỌN CHẬU</span>
+        <h1 class="article-title">Tủ 80cm nên chọn chậu rửa bát nào?</h1>
+        <div class="article-meta">
+          <span><i class="fas fa-calendar-alt"></i> 12 Tháng 9, 2025</span>
+          <span><i class="fas fa-clock"></i> 7 phút đọc</span>
+          <span><i class="fas fa-user"></i> CRB Team</span>
+        </div>
+        <p class="article-intro">Tủ bếp 80cm là kích thước phổ biến trong nhiều gia đình Việt. Vậy tủ 80cm nên chọn chậu
+          rửa bát nào để vừa đẹp, vừa tiện dụng và phù hợp với không gian bếp của bạn? Bài viết dưới đây sẽ giúp bạn có
+          câu trả lời chi tiết, kèm theo gợi ý từ CRB.</p>
+      </header>
+
+      <!-- Featured Image -->
+      <div class="featured-image-wrap">
+        <img src="https://placehold.co/800x450?text=Chau+rua+bat+tu+80cm" alt="Tủ 80cm nên chọn chậu rửa bát nào"
+          class="featured-img">
+        <div class="img-watermark">Không gian bếp tốt hơn mỗi ngày</div>
+        <p class="img-caption">Chậu rửa bát phù hợp giúp tối ưu không gian và mang lại trải nghiệm nấu nướng thoải mái
+          hơn.</p>
+      </div>
+
+      <!-- TABLE OF CONTENTS -->
+      <div class="toc-box">
+        <div class="toc-header">
+          <i class="fas fa-book-open"></i>
+          <strong>Mục lục</strong>
+        </div>
+        <ol class="toc-list">
+          <li><a href="#section-1">1. Vì sao tủ 80cm là kích thước phổ biến</a></li>
+          <li><a href="#section-2">2. Nên chọn 1 hố hay 2 hố?</a></li>
+          <li><a href="#section-3">3. Kích thước chậu phù hợp cho tủ 80cm</a></li>
+          <li><a href="#section-4">4. Những lưu ý khi lắp đặt</a></li>
+          <li><a href="#section-5">5. CRB gợi ý nhanh</a></li>
+          <li><a href="#section-6">6. Câu hỏi thường gặp (FAQ)</a></li>
+        </ol>
+      </div>
+
+      <!-- SECTION 1 -->
+      <section class="article-section" id="section-1">
+        <h2 class="section-heading"><span class="section-num">1</span>Vì sao tủ 80cm là kích thước phổ biến?</h2>
+        <p>Tủ bếp dưới 80cm (chiều ngang) là kích thước tiêu chuẩn, phù hợp với đa số không gian bếp chung cư và nhà phố
+          tại Việt Nam. Kích thước này cân bằng giữa sự gọn gàng và công năng, giúp dễ dàng bố trí chậu rửa, phụ kiện và
+          vẫn đảm bảo không gian lưu trữ.</p>
+        <div class="article-img-wrap">
+          <img src="https://placehold.co/700x400?text=Tu+bep+80cm" alt="Tủ bếp 80cm">
+          <div class="article-img-overlay">80 cm</div>
+        </div>
+        <ul class="check-list">
+          <li><i class="fas fa-check-circle"></i> Phù hợp với nhiều loại mặt bếp và thiết kế tủ</li>
+          <li><i class="fas fa-check-circle"></i> Dễ tìm mẫu chậu rửa bát tương thích</li>
+          <li><i class="fas fa-check-circle"></i> Tối ưu không gian sử dụng, không quá lớn cũng không quá nhỏ</li>
+        </ul>
+      </section>
+
+      <!-- SECTION 2 -->
+      <section class="article-section" id="section-2">
+        <h2 class="section-heading"><span class="section-num">2</span>Từ 80cm nên chọn chậu 1 hố hay 2 hố?</h2>
+        <p>Việc chọn chậu 1 hố hay 2 hố phụ thuộc vào thói quen nấu nướng và không gian sử dụng của gia đình bạn. Dưới
+          đây là so sánh nhanh để bạn dễ lựa chọn:</p>
+        <div class="comparison-table">
+          <div class="ct-header ct-row">
+            <div class="ct-cell ct-label">Tiêu chí</div>
+            <div class="ct-cell">Chậu 1 hố</div>
+            <div class="ct-cell">Chậu 2 hố</div>
+          </div>
+          <div class="ct-row">
+            <div class="ct-cell ct-label">Không gian sử dụng</div>
+            <div class="ct-cell">Rộng rãi, thoải mái</div>
+            <div class="ct-cell">Chia khu vực rửa - sơ chế</div>
+          </div>
+          <div class="ct-row">
+            <div class="ct-cell ct-label">Phù hợp nhu cầu</div>
+            <div class="ct-cell">Gia đình ít người, thích sự tối giản</div>
+            <div class="ct-cell">Gia đình nhiều người, nấu nướng thường xuyên</div>
+          </div>
+          <div class="ct-row">
+            <div class="ct-cell ct-label">Vệ sinh nồi chảo lớn</div>
+            <div class="ct-cell">Dễ dàng</div>
+            <div class="ct-cell">Hạn chế hơn</div>
+          </div>
+          <div class="ct-row">
+            <div class="ct-cell ct-label">Tính thẩm mỹ</div>
+            <div class="ct-cell">Hiện đại, gọn gàng</div>
+            <div class="ct-cell">Truyền thống, quen thuộc</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3 -->
+      <section class="article-section" id="section-3">
+        <h2 class="section-heading"><span class="section-num">3</span>Kích thước chậu phù hợp cho tủ 80cm</h2>
+        <p>Với tủ bếp 80cm, bạn nên chọn chậu có kích thước tổng (Dài x Rộng) phù hợp để đảm bảo lắp đặt vừa vặn, đồng
+          thời vẫn có không gian cho phụ kiện và đường ống thoát nước.</p>
+        <div class="info-box">
+          <div class="info-box-label">Kích thước gợi ý cho tủ 80cm</div>
+          <ul class="info-list">
+            <li><i class="fas fa-check-circle"></i> <strong>Chiều dài chậu:</strong> 720 – 760 mm</li>
+            <li><i class="fas fa-check-circle"></i> <strong>Chiều rộng chậu:</strong> 430 – 480 mm</li>
+            <li><i class="fas fa-check-circle"></i> <strong>Chiều sâu hố:</strong> 200 – 230 mm</li>
+            <li><i class="fas fa-check-circle"></i> <strong>Nên chừa 2 – 3 cm mỗi bên</strong> để dễ lắp đặt và bảo trì.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECTION 4 -->
+      <section class="article-section" id="section-4">
+        <h2 class="section-heading"><span class="section-num">4</span>Lưu ý khi lắp chậu cho bếp hiện tại</h2>
+        <ul class="check-list check-list-spaced">
+          <li><i class="fas fa-check-circle"></i> Kiểm tra kích thước thực tế của tủ bếp và mặt đá</li>
+          <li><i class="fas fa-check-circle"></i> Xác định kiểu lắp đặt phù hợp (lắp nổi, lắp âm, lắp bán âm).</li>
+          <li><i class="fas fa-check-circle"></i> Đảm bảo vị trí thoát nước và không gian lắp đặt phụ kiện (vòi, xịt xà
+            phòng...).</li>
+          <li><i class="fas fa-check-circle"></i> Nếu thay chậu cũ, hãy đo lại kích thước khoét đá để tránh phải cắt
+            lại.</li>
+        </ul>
+      </section>
+
+      <!-- SECTION 5 -->
+      <section class="article-section" id="section-5">
+        <h2 class="section-heading"><span class="section-num">5</span>CRB gợi ý nhanh</h2>
+        <div class="highlight-box">
+          <div class="highlight-box-header">
+            <i class="fas fa-lightbulb"></i>
+            <h3>CRB gợi ý nhanh</h3>
+          </div>
+          <p>Với tủ 80cm, CRB khuyên bạn nên chọn các mẫu chậu inox 304 kích thước 730 – 750 mm, thiết kế 1 hố lớn hoặc
+            2 hố cân đối, kèm phụ kiện thông minh như thớt, rổ rá để tối ưu trải nghiệm sử dụng.</p>
+          <a href="#" class="highlight-link">Xem các mẫu chậu phù hợp cho tủ 80cm tại đây <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+      </section>
+
+      <!-- SECTION 6: FAQ -->
+      <section class="article-section" id="section-6">
+        <h2 class="section-heading"><span class="section-num">6</span>Câu hỏi thường gặp (FAQ)</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary class="faq-q">
+              <span>1. Tủ 80cm có lắp được chậu 2 hố không?</span>
+              <i class="fas fa-chevron-down"></i>
+            </summary>
+            <div class="faq-a">Hoàn toàn có thể! Tuy nhiên bạn cần chọn mẫu 2 hố compact (mỗi hố nhỏ hơn) và đảm bảo
+              tổng chiều dài chậu ≤ 760mm để lắp vừa.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">
+              <span>2. Nên chọn chậu inox 304 hay granite cho tủ 80cm?</span>
+              <i class="fas fa-chevron-down"></i>
+            </summary>
+            <div class="faq-a">Inox 304 là lựa chọn phổ biến hơn vì giá hợp lý, bền và dễ vệ sinh. Granite thích hợp nếu
+              bạn ưu tiên thẩm mỹ và tủ bếp đã có thiết kế sang trọng.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">
+              <span>3. Chi phí thay chậu rửa bát khoảng bao nhiêu?</span>
+              <i class="fas fa-chevron-down"></i>
+            </summary>
+            <div class="faq-a">Tùy theo mẫu và thương hiệu, chi phí có thể dao động từ 2 – 15 triệu đồng, chưa kể phí
+              lắp đặt (nếu có). CRB tư vấn miễn phí để bạn chọn đúng ngân sách.</div>
+          </details>
+        </div>
+      </section>
+
+    </article>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+
+      <!-- Widget 1: FitMatch AI -->
+      <div class="sidebar-fitmatch">
+        <div class="fitmatch-content">
+          <div class="fitmatch-header">
+            <span class="fitmatch-title-crb">CRB</span>
+            <span class="fitmatch-title-fm">FitMatch</span>
+            <span class="ai-badge">AI</span>
+          </div>
+          <p class="fitmatch-sub">Chọn chậu phù hợp chỉ trong vài bước</p>
+          <ul class="fitmatch-steps">
+            <li><span class="fitmatch-icon"><i class="fas fa-check"></i></span> Trả lời vài câu hỏi đơn giản</li>
+            <li><span class="fitmatch-icon"><i class="fas fa-check"></i></span> Gợi ý mẫu chậu phù hợp nhất</li>
+            <li><span class="fitmatch-icon"><i class="fas fa-check"></i></span> Phù hợp với không gian bếp của bạn</li>
+          </ul>
+          <a href="#" class="btn-accent fitmatch-btn">BẮT ĐẦU CHỌN CHẬU <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="fitmatch-img-wrapper">
+          <img src="images/AI.jpg" alt="Chậu rửa bát" class="fitmatch-img">
+        </div>
+
+        <div class="fitmatch-decoration">
+          <svg class="decor-sparks" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L12 8M8 4L10 8M16 4L14 8" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span class="decor-text">Tìm chậu phù hợp<br>dễ dàng hơn!</span>
+          <svg class="decor-underline" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 15Q50 0 95 15" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Widget 2: Popular Posts -->
+      <div class="sidebar-popular">
+        <div class="sidebar-heading-row">
+          <h3>Bài viết phổ biến</h3>
+          <a href="#">Xem tất cả <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <ol class="popular-list">
+          <li>
+            <span class="pop-num">01</span>
+            <img src="images/kichthuoc.png" class="pop-thumb" alt="Thumb 1">
+            <a href="#">Kích thước chậu rửa bát phổ biến hiện nay</a>
+          </li>
+          <li>
+            <span class="pop-num">02</span>
+            <img src="images/1or2.png" class="pop-thumb" alt="Thumb 2">
+            <a href="#">Chậu 1 hố hay 2 hố? Nên chọn loại nào?</a>
+          </li>
+          <li>
+            <span class="pop-num">03</span>
+            <img src="images/inox304.png" class="pop-thumb" alt="Thumb 3">
+            <a href="#">Chậu inox 304 là gì? Có thực sự tốt?</a>
+          </li>
+          <li>
+            <span class="pop-num">04</span>
+            <img src="images/chauda.png" class="pop-thumb" alt="Thumb 4">
+            <a href="#">Thay chậu rửa bát có cần cắt lại đá không?</a>
+          </li>
+          <li>
+            <span class="pop-num">05</span>
+            <img src="images/vesinhchau.png" class="pop-thumb" alt="Thumb 5">
+            <a href="#">Cách vệ sinh chậu rửa bát đúng cách, luôn như mới</a>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Widget 3: Upload Photo CTA -->
+      <div class="sidebar-upload bg-[#f8f9fa] rounded-xl p-5 border border-gray-100 flex flex-col gap-4 font-sans w-full max-w-[340px] mx-auto mb-6">
+        <!-- Hidden input -->
+        <input type="file" id="uploadInput" class="hidden" accept="image/*">
+        
+        <!-- Header -->
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white text-[#ff5a00] shrink-0 shadow-sm">
+            <i class="fas fa-file-image text-[22px]"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-gray-900 text-[16px] leading-tight m-0 pb-1">Tải ảnh bếp của bạn</h3>
+            <p class="text-[13px] text-gray-500 leading-snug m-0">Gửi ảnh không gian bếp, CRB sẽ tư vấn mẫu chậu phù hợp nhất cho bạn.</p>
+          </div>
+        </div>
+
+        <!-- Dropzone -->
+        <div class="relative h-[140px] rounded-lg overflow-hidden cursor-pointer group mt-1" onclick="document.getElementById('uploadInput').click()">
+          <!-- Background image -->
+          <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&q=80')] bg-cover bg-center"></div>
+          <!-- Overlay -->
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
+          <!-- Center icon -->
+          <div class="absolute inset-0 m-auto w-14 h-10 bg-white rounded-lg flex items-center justify-center shadow-md">
+            <i class="fas fa-cloud-upload-alt text-teal-800 text-xl"></i>
+          </div>
+        </div>
+
+        <!-- CTA Button -->
+        <button onclick="document.getElementById('uploadInput').click()" class="w-full bg-[#ff5a00] hover:bg-[#e04f00] text-white font-bold uppercase py-3 rounded-md flex items-center justify-center gap-2 transition-colors cursor-pointer text-[14px] border-none mt-1 shadow-sm">
+          GỬI ẢNH NGAY <i class="fas fa-arrow-right"></i>
+        </button>
+
+        <!-- Footer -->
+        <div class="flex items-center justify-center gap-1.5 text-[12px] text-gray-500 mt-1 font-medium">
+          <i class="fas fa-shield-alt"></i> Bảo mật thông tin của bạn
+        </div>
+      </div>
+
+    </aside>
+
+  </div><!-- end main-layout -->
+
+  <!-- BOTTOM SECTION (Full Width CTA & Related) -->
+  <div class="container bottom-section">
+
+    <!-- CTA BANNER -->
+    <div class="article-cta-banner">
+      <div class="cta-banner-left">
+        <div>
+          <h3>Chưa biết chọn mẫu nào?<br>Gửi ảnh bếp, CRB hỗ trợ chọn nhanh.</h3>
+          <p style="margin-top: 8px; color: var(--text-gray);">Đội ngũ chuyên gia luôn sẵn sàng tư vấn cho bạn.</p>
+        </div>
+        <a href="#" class="btn-accent">GỬI ẢNH NGAY <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="cta-banner-right">
+        <img src="https://placehold.co/320x160?text=Tu+van+mien+phi" alt="Tư vấn miễn phí"
+          style="border-radius: var(--radius);">
+      </div>
+    </div>
+
+    <!-- RELATED ARTICLES -->
+    <div class="related-articles">
+      <div class="related-header">
+        <h3>Bài viết liên quan</h3>
+        <a href="#" class="view-all-link">Xem tất cả <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="related-list">
+        <div class="related-card">
+          <img src="https://placehold.co/400x225?text=Bai+viet+1" alt="Bài viết 1">
+          <div class="related-info">
+            <h4>Cách đo chậu cũ để mua chậu mới chính xác trong 5 phút</h4>
+            <span><i class="fas fa-calendar-alt"></i> 10 Tháng 9, 2025</span>
+          </div>
+        </div>
+        <div class="related-card">
+          <img src="https://placehold.co/400x225?text=Bai+viet+2" alt="Bài viết 2">
+          <div class="related-info">
+            <h4>Chậu inox 304 là gì? Có nên chọn cho gia đình?</h4>
+            <span><i class="fas fa-calendar-alt"></i> 5 Tháng 9, 2025</span>
+          </div>
+        </div>
+        <div class="related-card">
+          <img src="https://placehold.co/400x225?text=Bai+viet+3" alt="Bài viết 3">
+          <div class="related-info">
+            <h4>Thay chậu rửa bát có cần cắt lại đá không?</h4>
+            <span><i class="fas fa-calendar-alt"></i> 3 Tháng 9, 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col brand-col">
+          <a href="#" class="footer-logo-link">
+            <img src="images/logo.png" alt="CRB" class="footer-logo-img"
+              onerror="this.src='https://placehold.co/100x40?text=CRB'">
+          </a>
+          <p class="footer-desc">CRB giúp bạn chọn đúng chậu, đúng bếp với giải pháp đơn giản, nhanh chóng và đáng tin
+            cậy.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Sản phẩm</h4>
+          <ul>
+            <li><a href="#">Chậu rửa bát</a></li>
+            <li><a href="#">Vòi bếp</a></li>
+            <li><a href="#">Phụ kiện</a></li>
+            <li><a href="#">Combo ưu đãi</a></li>
+            <li><a href="#">Theo thương hiệu</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hỗ trợ</h4>
+          <ul>
+            <li><a href="#">Thay chậu cũ</a></li>
+            <li><a href="#">Hướng dẫn chọn chậu</a></li>
+            <li><a href="#">Chính sách bảo hành</a></li>
+            <li><a href="#">Chính sách giao hàng</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Về CRB</h4>
+          <ul>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Showroom</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Cẩm nang</a></li>
+            <li><a href="#">Tuyển dụng</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Liên hệ</h4>
+          <ul>
+            <li><a href="tel:0961234567"><i class="fas fa-phone"></i> 0961 234 567</a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i> info@chauruabat.com</a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận 2, TP. Thủ Đức, TP. HCM</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 CRB. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Chính sách bảo mật</a>
+          <span>·</span>
+          <a href="#">Điều khoản sử dụng</a>
+          <span>·</span>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
