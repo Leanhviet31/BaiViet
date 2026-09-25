@@ -78,4 +78,40 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  // 7. Image Upload Preview for Widget 3 (Sidebar)
+  const uploadInput = document.getElementById('uploadInput');
+  const uploadPreview = document.getElementById('uploadPreview');
+  
+  if (uploadInput && uploadPreview) {
+    uploadInput.addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          uploadPreview.src = e.target.result;
+          uploadPreview.classList.remove('opacity-0');
+          uploadPreview.classList.add('opacity-100');
+        }
+        reader.readAsDataURL(file);
+      }
+    });
+  }
+
+  // 8. Image Upload Preview for Bottom CTA
+  const bottomUploadInput = document.getElementById('bottomUploadInput');
+  const bottomUploadPreview = document.getElementById('bottomUploadPreview');
+  
+  if (bottomUploadInput && bottomUploadPreview) {
+    bottomUploadInput.addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          bottomUploadPreview.src = e.target.result;
+        }
+        reader.readAsDataURL(file);
+      }
+    });
+  }
+
 });
